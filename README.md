@@ -1,23 +1,23 @@
 🚀 AI Interview Coach
 
-A real-time AI-powered interview analysis tool built to provide honest, instant feedback.
+A real-time AI-powered interview analysis tool built to provide instant, honest feedback.
 
 📌 Overview
 
-While preparing for interviews, I realized one thing:
-I needed real feedback — instantly and accurately.
+While practicing for interviews, I realized one thing:
+I needed real feedback — not just a webcam reflection.
 
-Most mock interview tools online were paid, limited, or didn’t give meaningful insights.
-So I built my own AI Interview Coach, which analyzes both video + audio in real time and generates a complete performance report.
+Most mock interview tools online were paid or offered limited insights, so I decided to create my own.
+Introducing AI Interview Coach, a tool that analyzes both video + audio in real time and generates a complete performance report instantly.
 
-This project is also the foundation of my upcoming full-stack platform — Intix (Coming in 2025).
+This project also serves as the foundation for my upcoming full-stack platform — Intix (Coming in 2025).
 
 🎯 Features
 🔍 Real-Time Computer Vision Analysis
 
 👀 Eye contact tracking
 
-🧍‍♂️ Posture alignment
+🧍‍♂️ Posture and body alignment
 
 😊 Expression & smile detection
 
@@ -27,15 +27,15 @@ This project is also the foundation of my upcoming full-stack platform — Intix
 
 🎤 Speech & Audio Analysis
 
-🗣️ Filler word detection (um, ah, like…)
+🗣️ Filler word detection (um, ah, like...)
 
 🎤 Voice clarity
 
-⚡ Energy level tracking
+⚡ Energy level
 
 📈 Speaking pace (WPM)
 
-⭐ Confidence Score
+⭐ Confidence Scoring
 
 A combined score generated from:
 
@@ -53,55 +53,33 @@ Filler words
 
 📊 Instant Performance Report
 
-Automatically generated after each session:
+After every session, the system generates:
 
 Radar charts
 
 Bar graphs
 
-Strengths & improvements
+Strengths & improvement points
 
 Personalized recommendations
 
 Saved video + audio
 
-Zero delay
+Real-time feedback with zero delay
 
 🛠️ Tech Stack
 
-Core:
-
-Python
-
-Computer Vision:
-
-OpenCV
-
-MediaPipe
-
-Speech & Audio:
-
-SpeechRecognition
-
-PyAudio
-
-Data Processing & Charts:
-
-NumPy
-
-Matplotlib
-
-Report Generation:
-
-HTML + CSS
-
-Multithreading:
-
-Python's threading module
+Programming Language: Python
+Computer Vision: OpenCV, MediaPipe
+Audio & Speech: SpeechRecognition, PyAudio
+Data Processing: NumPy
+Charts & Visualization: Matplotlib
+Report Generation: HTML + CSS
+Concurrency: Python Multithreading
 
 📁 Output Files
 
-Each session generates:
+Each interview session automatically saves:
 
 🎥 session_video.mp4
 
@@ -109,15 +87,13 @@ Each session generates:
 
 📊 report.html
 
-📈 Radar & bar graphs (embedded in report)
-
-These are stored automatically in a dedicated folder.
+All files are stored inside a dedicated session folder.
 
 🚀 How It Works
 
-The tool captures your webcam + microphone in real time.
+Captures webcam + mic input in real-time
 
-Runs AI models to compute:
+Applies AI analysis models for:
 
 Eye contact
 
@@ -129,30 +105,39 @@ Expressions
 
 Speech metrics
 
-Generates a confidence score.
+Computes a confidence score
 
-Produces a detailed performance report instantly.
+Generates a detailed interactive report instantly
 
-Saves everything so you can track your growth.
+Saves audio/video files for review
+
+Helps you self-evaluate and improve interview performance
 
 📦 Installation
-https://github.com/Prashanthgoud15/in.git
+
+Clone the repository:
+
+git clone https://github.com/Prashanthgoud15/in.git
 cd in
+
+
+Install dependencies:
+
 pip install -r requirements.txt
+
+
+Run the project:
+
 python interview_coach.py
 
 
-Make sure your device has:
+Make sure your device has a working webcam and microphone.
 
-A webcam
+🎁 What’s Next? Introducing Intix
 
-A microphone
+This is just Version 1.
 
-🎁 Next Version: Intix (Coming 2025)
-
-This project is just Version 1.
-
-By the end of 2025, I’m building Intix — a complete full-stack interview analytics platform with:
+By the end of 2025, I’m building Intix — a full-stack, advanced AI interview platform that will include:
 
 A clean, modern UI
 
@@ -166,10 +151,9 @@ History tracking
 
 Smart AI analysis
 
-Only a glimpse for now — more soon.
+Only a glimpse for now. More updates soon.
 
-🤝 Contributions
+🤝 Contributing
 
-Contributions, issues, and suggestions are welcome!
-Feel free to open a PR or raise an issue.
-
+Suggestions, issues, and contributions are welcome.
+Feel free to open an issue or submit a pull request.
